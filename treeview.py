@@ -31,16 +31,10 @@ class Window:
 
         
 
-        #self.tree.bind("<Double-Button-1>",self.popupdata)
-
-        #self.tk.bind("<Control-o>",self.trigger)
+        
 
         self.tk.mainloop()
 
-    def popupdata(self,e):
-        print(e)
-        d = self.tree.focus()
-        print(self.tree.item(d))
         
         
 
